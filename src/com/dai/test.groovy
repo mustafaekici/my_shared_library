@@ -2,8 +2,11 @@ package com.dai
 
 public class test{
     
-    def foo(){
-        println "hello from foo"
+    def foo(String state){
+        if(state=="ci")
+            return true;
+        else
+            return false;
     }
 
 }
