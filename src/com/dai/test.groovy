@@ -1,3 +1,5 @@
+package com.dai
+
 public class Test{
     
     def foo(){
