@@ -1,6 +1,7 @@
 
+src/com/ci.groovy
 #!/usr/bin/groovy
-package com.dai
+package com.dai;
 
 def PythonLinter(){
     return true;
