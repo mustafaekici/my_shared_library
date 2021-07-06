@@ -7,7 +7,7 @@ class MyPipeline{
     
     def foo(){
         pipeline.stages{
-            steps.stage("Run factory for statemachine"){
+            pipeline.stage("Run factory for statemachine"){
                
                 }
             }
