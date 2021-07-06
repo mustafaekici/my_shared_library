@@ -24,6 +24,5 @@ def foo(){
     }
 }
     
-}
 
 return this
