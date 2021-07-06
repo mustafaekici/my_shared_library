@@ -1,28 +1,18 @@
 package com.dai
+public class pipeline{
 
-def PythonLinter(){
-    return true;
-}
-
-def Blackduck(){
-    return true;
-}
-
-def Documentation(){
-    return true;
-}
-
-def ArtifactoryCleanup(){
-    return true;
-}
-
-def foo(){
-    stages{
-        stage("Run factory for statemachine"){
-          
+    def steps
+    pipeline(steps) {this.steps=steps}
+    public def foo(){
+        steps.pipeline {
+        steps.agent any
+        steps.stages{
+            steps.stage("Run factory for statemachine"){
+               
+                }
+            }
         }
     }
-}
     
-
-return this
+    
+}
