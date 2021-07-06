@@ -17,8 +17,6 @@ def ArtifactoryCleanup(){
 }
 
 def foo(){
-   pipeline {
-    agent any
     stages{
         stage("Run factory for statemachine"){
           
