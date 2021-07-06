@@ -1,17 +1,19 @@
 package com.dai
 class MyPipeline{
 
-    def pipeline
+    def steps
     
-    MyPipeline(pipeline) {this.pipeline=pipeline}
+    MyPipeline(steps) {this.steps=steps}
     
     def foo(){
-        pipeline.stages{
-            pipeline.stage("Run factory for statemachine"){
+        // steps.pipeline {
+        // steps.agent any
+        steps.stages{
+            steps.stage("Run factory for statemachine"){
                
                 }
             }
-        
+        }
     }
     
     
