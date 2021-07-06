@@ -44,6 +44,11 @@ def foo(){
         disableConcurrentBuilds()
         timestamps()
     }
+    stages{
+        stage("Run factory for statemachine"){
+            
+        }
+    }
     }
 }
 
