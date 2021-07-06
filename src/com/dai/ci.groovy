@@ -44,6 +44,7 @@ def foo(){
         disableConcurrentBuilds()
         timestamps()
     }
+    }
 }
 
 return this
