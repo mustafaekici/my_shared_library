@@ -16,4 +16,8 @@ def ArtifactoryCleanup(){
     return true;
 }
 
+def foo(){
+    return true;
+}
+
 return this
