@@ -8,12 +8,12 @@ class MyPipeline{
     def foo(){
         // steps.pipeline {
         // steps.agent any
-        steps.stages{
-            steps.stage("Run factory for statemachine"){
-               
-                }
+    
+        steps.stage("Run factory for statemachine"){
+            
             }
-        }
+    }
+         
     
     
 }
