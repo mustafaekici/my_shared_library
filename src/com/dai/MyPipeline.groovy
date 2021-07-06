@@ -1,9 +1,9 @@
 package com.dai
-public class MyPipeline{
+public class mypipeline{
 
     def steps
     
-    MyPipeline(steps) {this.steps=steps}
+    mypipeline(steps) {this.steps=steps}
     
     public def foo(){
         steps.pipeline {
